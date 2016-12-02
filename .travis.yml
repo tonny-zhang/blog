@@ -4,13 +4,12 @@ node_js: stable
 install:
     - npm install hexo-cli -g
     - npm install
-    - npm run theme-yilia
 
 script:
     - hexo build
 
 after_script:
-    - cd ./_book
+    - cd ./public
     - git init
     - git config user.name "tonny travis"
     - git config user.email "wodexintiao@gmail.com"
