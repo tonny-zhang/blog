@@ -2,14 +2,12 @@
 
 menu:
   主页: /
-  随笔: /tags/随笔
 
 # SubNav
 subnav:
-  github: "#"
-  weibo: "#"
-  rss: "#"
-  zhihu: "#"
+  github: "https://github.com/tonny-zhang/"
+  weibo: "http://weibo.com/wodexintiao/home?wvr=5"
+  zhihu: "https://www.zhihu.com/people/tonny-57/activities"
   #douban: "#"
   #mail: "mailto:litten225@qq.com"
   #facebook: "#"
@@ -52,7 +50,7 @@ google_analytics: ''
 favicon: /favicon.png
 
 #你的头像url
-avatar:
+avatar: /blog/assets/avatar.png
 
 #是否开启分享
 share_jia: true
@@ -72,12 +70,12 @@ smart_menu:
   friends: '友链'
   aboutme: '关于我'
 
-friends:
-  友情链接1: http://localhost:4000/
-  友情链接2: http://localhost:4000/
-  友情链接3: http://localhost:4000/
-  友情链接4: http://localhost:4000/
-  友情链接5: http://localhost:4000/
-  友情链接6: http://localhost:4000/
+# friends:
+#   友情链接1: http://localhost:4000/
+#   友情链接2: http://localhost:4000/
+#   友情链接3: http://localhost:4000/
+#   友情链接4: http://localhost:4000/
+#   友情链接5: http://localhost:4000/
+#   友情链接6: http://localhost:4000/
 
 aboutme: 很惭愧<br><br>只做了一点微小的工作<br>谢谢大家
