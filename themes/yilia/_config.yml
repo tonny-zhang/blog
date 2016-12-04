@@ -47,7 +47,7 @@ weixin:
 
 # Miscellaneous
 google_analytics: ''
-favicon: /favicon.png
+favicon: /blog/favicon.png
 
 #你的头像url
 avatar: /blog/assets/avatar.png

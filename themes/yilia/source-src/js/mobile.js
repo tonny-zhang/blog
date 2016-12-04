@@ -39,8 +39,12 @@ var renderDOM = function(){
 
 	// 插入“全部文章”
 	if (yiliaConfig && yiliaConfig.innerArchive) {
-		var str = $('.js-smart-menu').first().html()
-		$('.header-menu ul').append('<li><a href="/archives">' + str +'</a></li>')
+		var str = $('.js-smart-menu').first().html();
+		var srcArchives = '/archives/';
+		if (yiliaConfig.root) {
+			srcArchives = yiliaConfig.root + srcArchives;
+		}
+		$('.header-menu ul').append('<li><a href="'+srcArchives+'">' + str +'</a></li>')
 	}
 
 	var menuStr = '<span class="viewer-title">菜单</span><div class="viewer-div menu" id="js-mobile-menu"></div>'
