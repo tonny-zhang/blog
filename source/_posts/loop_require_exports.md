@@ -43,7 +43,7 @@ const one = require('./one')
 
 one.start();
 ```
-> 输出结果
+输出结果
 ```
 $ node main.js
 one init
