@@ -4,4 +4,4 @@
 
 在线地址：https://tonny-zhang.github.io/blog/
 
-test gpg
+test gpg 1
