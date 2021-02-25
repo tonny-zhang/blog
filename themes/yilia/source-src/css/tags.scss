@@ -47,9 +47,9 @@
         }
     }
     a.color2{
-        background:  #F5C7B7;
+        background:  #cc8167;
         &:before{
-            border-right-color: #F5C7B7;  
+            border-right-color: #cc8167;  
         }
     }
     a.color3{
@@ -59,9 +59,9 @@
         }
     }
     a.color4{
-        background: #CFB7C4;
+        background: #94635c;
         &:before{
-            border-right-color:#CFB7C4;  
+            border-right-color:#94635c;  
         }
     }
     a.color5{
@@ -86,21 +86,12 @@
         margin-top: 6px;
     }
 }
-.article-tag{
+.article-tag, .article-category{
     float: left;
     .article-tag-list{
         float: left;
     }
-    .icon-price-tags {
-        color: #999;
-        float: left;
-        margin-right: 10px;
-        margin-top: 6px;
-    }
-}
-.article-category{
-    float: left;
-    .icon-calendar {
+    .icon {
         color: #999;
         float: left;
         margin-right: 10px;
