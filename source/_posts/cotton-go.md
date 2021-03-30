@@ -70,7 +70,7 @@ ok      cottonbench     10.259s
 ## 性能优化之路
 ### 1. 内存逃逸
 内存逃逸相关的概念这里就不多说了，就说下我使用的方案
-####1.1 路由Handle时使用的`Context` 使用了 `sync.Pool`
+#### 1.1 路由Handle时使用的`Context` 使用了 `sync.Pool`
 ```go
 var ctxPool sync.Pool
 
@@ -101,7 +101,7 @@ func newContext(w http.ResponseWriter, r *http.Request, router *Router) *Context
 	return ctx
 }
 ```
-####1.2 路由匹配到的`restfull`参数使用`sync.Pool`
+#### 1.2 路由匹配到的`restfull`参数使用`sync.Pool`
 ```go
 var paramsPool sync.Pool
 func init() {
